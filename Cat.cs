@@ -41,7 +41,7 @@ namespace MyCSharpEventHandlerDemo {
         /// </summary>
         public void RunAround() {
             Console.WriteLine(name + " is running around maniacally...");
-            if (randomBehavior.Next() % 3 == 0) {       // Every third episode he will jump on the table
+            if (randomBehavior.Next() % 3 == 0) {       // Roughly every third episode he will jump on the table
                 this.OnTable();     // Raise the event. Someone will be listening!
             }
         }
