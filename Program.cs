@@ -24,7 +24,7 @@ namespace MyCSharpEventHandlerDemo {
             // Run the cat around 10 times. Eventually it will jump on the table
             for (int i = 0; i < 10; i++) {
                 //Console.WriteLine(siriusBlack.name + " is running around...");
-                siriusBlack.RunAround();
+                siriusBlack.RunAround();    // This method will call our listener!
             }
         }
         /// <summary>
